@@ -1,0 +1,210 @@
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+}
+.servicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #3498db;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #3498db;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+.servicio-imagen {
+    width: 200px; /* Ancho deseado para todas las imágenes */
+    height: auto;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd9e1; /* Cambiar a un tono de rosa pastel */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd9e1;
+    color: #3498db;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: cursive; /* Cambia a una fuente cursiva */
+    margin: 0;
+}
+
+header {
+    background-color: #ffd9e1;
+    color: #3498db;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: cursive; /* Cambia a una fuente cursiva */
+    margin: 0;
+}
+
+header::before {
+    content: "Servicios de masoterapia"; /* Cambia el texto adicional */
+    display: block;
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden; /* Ocultar lo que se desborda */
+}
+
+.servicio {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    transform: translateX(-100%); /* Comienza fuera de la pantalla */
+    animation: slideRight 1s ease-in-out forwards; /* Aplicar animación */
+}
+
+.servicio img {
+    width: 200px;
+    height: auto;
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(0); /* Deslizar hacia la derecha */
+    }
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Ajusta el espacio entre elementos según lo desees */
+}
+
+
+
+body{font-family:Arial,sans-serif;background-color:#f2f2f2;margin:0;padding:0}header{background-color:#3498db;color:#fff;text-align:center;padding:20px}nav ul{list-style:none;background-color:#3498db;padding:0}nav li{display:inline;margin-right:20px}nav a{text-decoration:none;color:#fff}section{background-color:#fff;margin:20px;padding:20px}h1,h2{color:#3498db}footer{background-color:#3498db;color:#fff;text-align:center;padding:10px}.servicios-container{display:flex;flex-wrap:wrap;justify-content:space-around;overflow:hidden}.servicio{text-align:center;margin:10px;padding:10px;transform:translateX(-100%);animation:slideRight 1s ease-in-out forwards}.servicio img{width:200px;height:auto}@keyframes slideRight{to{transform:translateX(0)}}
